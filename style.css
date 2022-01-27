@@ -163,12 +163,15 @@ header{
     display: inline-block;
     margin: 20px;
     background-color: red;
+    width: 400px;
+    height: 500px;
 ;
    
 }
 
 #img-wrapper-sobremim img{
     width: 400px;
+    overflow: hidden;
 }
 
 .container-sobremim{
@@ -209,6 +212,12 @@ input{
     size: 30px;
 }
 
+#texto-informativo{
+    margin-top: 20px;
+    display: inline-block;
+    width: 70%;
+    font-family: var(--font-secundary);
+}
 
 /***************** ANIMACOES E EFEITOS*********************/
 
