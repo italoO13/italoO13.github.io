@@ -129,11 +129,19 @@ header{
 /********************** SOBRE MIM *******************************/
 
 #sobremim{
-    text-align: center;
     align-items: center;
+    text-align: center;
 }
 
-#sobremim h1{
+.titulo-sobremim {
+
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.titulo-sobremim h1{
     font-size: 4rem;
     font-family: var(--font-primary);
     font-weight: 400;
@@ -153,6 +161,7 @@ header{
 
 #img-wrapper-sobremim{
     display: inline-block;
+    margin: 20px;
     background-color: red;
 ;
    
@@ -163,17 +172,42 @@ header{
 }
 
 .container-sobremim{
-
+    padding-top: 30px;
 }
 
 .conteudo-sobremim{
     width: 60%;
-    height: 100%;
     display: inline-block;
-    position: relative;
-    
+    align-items: center;
+    text-align: center;
+    vertical-align: top;
+
 }
 
+.conteudo-sobremim h1{
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    font-weight: 400;
+    
+}
+.container-conteudo{
+    padding-top: 20px;
+
+}
+
+#pouco,#muito{
+    font-family: var(--font-secundary);
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+input{
+    margin-top: 10px;
+    width: 30px;
+    size: 30px;
+}
 
 
 /***************** ANIMACOES E EFEITOS*********************/
